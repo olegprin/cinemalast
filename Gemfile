@@ -1,6 +1,19 @@
 source 'https://rubygems.org'
 
 
+
+gem 'ckeditor'
+gem 'dynamic_sitemaps'
+gem 'friendly_id'
+gem 'whenever', :require => false
+gem 'non-stupid-digest-assets', '~> 1.0.4'
+gem 'pg_search'
+
+
+
+
+
+
 gem 'rails', '4.2.6'
 
 gem "haml-rails"
@@ -37,7 +50,7 @@ gem 'cancancan'
 gem 'will_paginate'
 gem "pg"
 gem 'spring'
-gem 'rake','11.1.1'
+gem 'rake'
 gem 'tire'
 gem 'prawn'
 gem 'prawn-table'
